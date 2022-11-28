@@ -1,0 +1,93 @@
+.chat-container {
+    display: flex;
+    justify-content: center;
+}
+
+.friends-list {
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 484px;
+    background-color: rgb(255, 255, 255);
+}
+
+.friend {
+    height: 120px;
+    border-bottom: 1px solid #e7ebee;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.friend:hover {
+    background: #f1f4f6;
+    cursor: pointer;
+}
+
+.friend img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+}
+
+.floatingImg {
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    border: 3px solid #fff;
+}
+
+.friend p {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.friend p strong {
+    font-weight: 600;
+    font-size: 15px;
+    color: #597a96;
+
+}
+
+.friend p span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #aab8c2;
+    padding-right: 15em;
+}
+
+.friend .online {
+    background: #26c281;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 31px;
+    right: 17px;
+}
+
+.friend .offline {
+    background: #ff0000;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 31px;
+    right: 17px;
+}
+
+.container-status{
+    position: absolute;
+    float: left;
+    margin: 40em;
+}
